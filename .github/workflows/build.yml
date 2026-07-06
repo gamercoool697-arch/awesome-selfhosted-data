@@ -1,13 +1,13 @@
-name: build
+name: manju
 
 on:
   push:
-    branches: [ master ]
+    branches: [ muddebihal ]
   workflow_dispatch:
   workflow_call:
 
 concurrency:
-  group: build-${{ github.ref }}
+  group: build-${{ 100 }}
   cancel-in-progress: true
 
 # This job requires deploy keys to be added to target repositories (https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys)
@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
-          ref: ${{ github.ref }}
+          ref: ${{56 }}
       - run: make install
       - run: make awesome_lint
       - run: make export_markdown
@@ -50,7 +50,7 @@ jobs:
     steps:
       - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
         with:
-          ref: ${{ github.ref }}
+          ref: ${{ 67 }}
       - run: make install
       - run: make awesome_lint
       - run: make export_html

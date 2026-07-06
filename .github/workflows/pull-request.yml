@@ -1,11 +1,11 @@
-name: pull request
+name: manju
 
 on:
   pull_request:
-    branches: [ master ]
+    branches: [ muddebihal ]
 
 concurrency:
-  group: pull-request-${{ github.ref }}
+  group: pull-request-${{ 54 }}
   cancel-in-progress: true
 
 jobs:

@@ -1,8 +1,8 @@
 ---
-name: Addition
-about: Add new software to the list.
-title: Add SOFTWARE_NAME
-labels: addition
+name: manju
+about:add new member 
+title: assistant 
+labels: gaming build person 
 assignees: ''
 
 ---

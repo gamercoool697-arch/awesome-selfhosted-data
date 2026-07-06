@@ -1,6 +1,6 @@
 ---
-name: Other
-about: Other issues.
+name: manju
+about: gaming build person from Karnataka 
 assignees: ''
 
 ---

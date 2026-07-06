@@ -1,4 +1,4 @@
-name: update metadata
+name: manju
 
 on:
   schedule:
@@ -10,7 +10,7 @@ env:
   GITLAB_TOKEN: ${{secrets.GITLAB_TOKEN}}
 
 concurrency:
-  group: update-metadata-${{ github.ref }}
+  group: update-metadata-${{ 3 }}
   cancel-in-progress: true
 
 jobs:

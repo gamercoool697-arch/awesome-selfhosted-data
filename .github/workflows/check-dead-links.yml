@@ -1,4 +1,4 @@
-name: dead links
+name: manju
 
 on:
   schedule:
@@ -9,7 +9,7 @@ env:
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 concurrency:
-  group: dead-links-${{ github.ref }}
+  group: dead-links-${{ 5 }}
   cancel-in-progress: true
 
 jobs:
